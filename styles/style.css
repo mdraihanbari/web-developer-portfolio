@@ -139,3 +139,44 @@ main section{
     margin-top: 20px;
     margin-bottom: 45px;
 }
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-column-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.experience-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.experience-sub-title{
+    color:#757575 ;
+}
+.resume-container hr{
+    margin:30px 5px;
+}
+.resume .section-title{
+    margin-bottom: 40px;
+}
+.download-cv{
+    margin-top: 50px;
+}
+.footer-item{
+    padding:130px 250px;
+    display: flex;
+    gap:50px;
+}
+.footer-column{
+    width:50%;
+}
+.footer-item input[type="text"], .footer-item input[type="email"] , .footer-item textarea{
+    height: 64px;
+    border-radius: 5px;
+    display: block;
+    width:100%;
+    margin-bottom: 24px;
+    padding: 10px 20px;
+    border: none;
+}
